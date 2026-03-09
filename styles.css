@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(255, 249, 240);
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.caroma{
+    font-size: 44px;
+    /* background-color: blue; */
+    margin-bottom: 0px;  
+    margin-left: 0px;  
+}
+
+.gg{
+    margin-top:0px;
+    margin-left: 5px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.logo{
+   margin-right: auto; 
+}
+
+.navlinks{
+    margin-left: auto;
+}
+.link{
+    margin-left: 10px;
+}
+
+th{
+    background-color: rgb(247, 222, 185);
+    padding: 2px;
+    border:none;
+    text-align: left;
+    
+}
+
+
+tr{
+    margin:none;
+}
+
+tr:nth-child(even){
+    background-color: rgb(251, 240, 220);
+}
+
+.menu{
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+table{
+    width:100%; border:none
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    margin-bottom:0px;
+}
+
+p{
+    margin: 0px;
+    font-weight:500;
+}
+
+h2{
+    margin:0px
+}
+
+.photodiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafedesc{
+    margin-left: 25px;
+    margin-bottom: auto;
+    margin-top:15px;
+}
+
+button{
+    background-color: black;
+    text-decoration: none;
+    padding:8px 15px 8px 15px;
+    margin-top: 5px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+button:hover{
+    transform: scale(1.07 , 1.07);
+    transition-duration: 100ms;
+}
+
+img{
+    border-radius: 10px;
+    transition-duration: 200ms;
+
+}
+
+img:hover{
+    transform: scale(1.1 , 1.1);
+    transition-duration: 200ms;
+}
+
+button:active{
+    transform: scale(1 , 1);
+    transition-duration: 100ms;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    width:100%;
+    display: flex;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectile{
+    position:absolute;
+    z-index: -1;
+
+}
+.projectileimg{
+    width:30px;
+}
